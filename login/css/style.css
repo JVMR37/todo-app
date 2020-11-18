@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+}
+
+a { /* Link */
+    color: #5583EE;
+}
+
+.texto { /* Fonte */
+    font-family: 'Lato', sans-serif;
+}
+
+.fundo { /* Background */
+    background-image: linear-gradient(to bottom right, #41D8DD, #5583EE);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box { /* Caixinha branca */
+    left: 50%;
+    top: 50%;
+    margin-left: -350px; 
+    margin-top: -250px; 
+    width: 700px; 
+    height: 550px; 
+    position: absolute;
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+input[type = email] { /* Input email */
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: 0px;
+    margin-left: 70px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    background: #DFE6E9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type = password]{ /* Input senha */
+    width: 80%; 
+    padding: 12px 20px;
+    margin: 15px 70px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    background: #DFE6E9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+input[type = submit] { /* Botão entrar */
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 7px 210px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+  
+input[type = submit]:hover { /* Cor do botão enviar quando o mouse passa em cima */
+    background-color: #45a049;
+}
+
+.imagem { /* Imagem de bem-vindo */
+    width: 45%;
+    margin-top: 10px;
+}
+
+.centralizar {  /* Centralizar texto */
+    text-align: center;
+}
+
+  

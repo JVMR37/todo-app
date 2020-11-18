@@ -1,0 +1,153 @@
+<html>
+  <head>
+    <title>TO-DO</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!------ Include the above in your HEAD tag ---------->
+  </head>
+
+  <!--Navbar-->
+  <nav
+    class="navbar navbar-expand-lg navbar-dark primary-color"
+    style="background-color: #007bff"
+  >
+    <!-- Collapsible content -->
+    <div
+      class="collapse navbar-collapse"
+      style="vertical-align: middle"
+      id="basicExampleNav"
+    >
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto botao">
+        <button><img class="voltar" src="seta-esquerda.png" /></button>
+      </ul>
+
+      <form class="form-inline" style="vertical-align: ">
+        <div class="md-form my-0">
+          <input
+            class="form-control mr-sm-4"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </div>
+      </form>
+    </div>
+    <!-- Collapsible content -->
+  </nav>
+  <br />
+  <br />
+  <!--/.Navbar-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="list-group">
+          <img
+            src="pp.jfif"
+            class="list-group-item list-group-item-action active"
+          />
+          <br /><br />
+          <div style="text-align: center">
+            <button class="btn btn-primary">Alterar imagem</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Meu Perfil</h4>
+                <hr />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <form>
+                  <div class="form-group row">
+                    <label for="username" class="col-4 col-form-label"
+                      >Nome</label
+                    >
+                    <div class="col-8">
+                      <input
+                        id="username"
+                        name="username"
+                        placeholder="ex: Leonardo"
+                        class="form-control here"
+                        required="required"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="name" class="col-4 col-form-label"
+                      >Sobrenome</label
+                    >
+                    <div class="col-8">
+                      <input
+                        id="name"
+                        name="name"
+                        placeholder="ex: Peralta Piassi"
+                        class="form-control here"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="name" class="col-4 col-form-label"
+                      >Data de Nascimento</label
+                    >
+                    <div class="col-8">
+                      <input
+                        id="name"
+                        name="name"
+                        placeholder="Vai ter um calendario em JS"
+                        class="form-control here"
+                        type="date"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="publicinfo" class="col-4 col-form-label"
+                      >Public Info</label
+                    >
+                    <div class="col-8">
+                      <textarea
+                        id="publicinfo"
+                        name="publicinfo"
+                        cols="40"
+                        rows="4"
+                        class="form-control"
+                        placeholder="Conte um pouco sobre você :)"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="offset-4 col-8">
+                      <button
+                        name="submit"
+                        type="submit"
+                        class="btn btn-primary"
+                      >
+                        Salvar
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
