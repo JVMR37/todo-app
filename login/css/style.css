@@ -30,23 +30,12 @@ a { /* Link */
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
 }
 
-input[type = email] { /* Input email */
+.textField {
     width: 80%;
     padding: 12px 20px;
-    margin-top: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-left: 70px;
-    display: inline-block;
-    font-family: 'Lato', sans-serif;
-    border: none;
-    background: #DFE6E9;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-input[type = password]{ /* Input senha */
-    width: 80%; 
-    padding: 12px 20px;
-    margin: 15px 70px;
     display: inline-block;
     font-family: 'Lato', sans-serif;
     border: none;
@@ -74,6 +63,11 @@ input[type = submit]:hover { /* Cor do botão enviar quando o mouse passa em cim
 .imagem { /* Imagem de bem-vindo */
     width: 45%;
     margin-top: 10px;
+}
+
+.imagem { /* Imagem de bem-vindo */
+    width: 30%;
+    margin-top: 15px;
 }
 
 .centralizar {  /* Centralizar texto */
